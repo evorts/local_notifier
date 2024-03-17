@@ -6,7 +6,7 @@ import 'local_notification_close_reason.dart';
 import 'local_notification_listener.dart';
 import 'local_notifier.dart';
 
-class LocalNotification with LocalNotificationListener {
+class LocalNotification implements LocalNotificationListener {
   String identifier = Uuid().v4();
 
   /// Representing the title of the notification.
