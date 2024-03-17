@@ -5,6 +5,7 @@ version: 0.1.5
 # homepage: https://github.com/leanflutter/local_notifier
 # forked homepage:
 homepage: https://github.com/evorts/local_notifier
+publish_to: none
 
 platforms:
   linux:
